@@ -18,26 +18,6 @@
 
 ---
 
-## Quickstart
-
-```bash
-git clone https://github.com/teamcoderz/fairlens
-cd fairlens
-pip install -r requirements.txt
-```
-
-Add your Gemini API key to `.streamlit/secrets.toml`:
-```toml
-GEMINI_API_KEY = "your-key-here"
-```
-
-Run:
-```bash
-streamlit run app.py
-```
-
----
-
 ## Project Structure
 
 ```
@@ -63,18 +43,6 @@ fairlens/
 └── data/
     └── demo_loader.py      # Synthetic demo datasets
 ```
-
----
-
-## Deployment (Streamlit Cloud)
-
-1. Push this repo to GitHub (public)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect repo → set `app.py` as entry point
-4. Add `GEMINI_API_KEY` in Settings → Secrets
-5. Deploy
-
----
 
 ## Team
 
